@@ -1,0 +1,152 @@
+body{
+    width: 1000;
+    height: 2000;
+    padding: 0px;
+    margin: 0px;
+}
+#logo{
+    padding: 27px 100px 27px 56px ;
+    background: #FFD900;
+    height: 63px;
+    flex-shrink: 0;
+}
+.container{
+    display: flex;
+    display: grid;
+    grid-auto-flow: column;
+}
+.texto-principal{
+    background: #514988;
+    width: 902px;
+    height: 694px;
+    text-align: center;
+}
+
+.titulo-texto{
+    color: #F3C61F;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 11px 68px 0px 58px;
+}
+.container h3{
+    color: #FFF;
+    font-family: Verdana;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 0px;
+}
+
+.texto{
+    color: #FFF;
+    padding: 20px 60px 32px 64px ;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.timer{
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 70px;
+    height: 75px;
+}
+
+
+.video-e-titulo{
+    padding: 15px 15px 10px 15px;
+
+}
+.cronometro{
+    color: #514988;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 20px;
+    padding: 30px 15px 0px 30px;
+    
+
+    display: flex;
+    width: 173px;
+    height: 75px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+}
+#paragrafo{
+    color: #E33881;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 90px 10px 1px 0px;
+}
+#video-arlequina{
+    padding: 15px 15px 10px 0px;
+    height: 510px;
+ }
+ #bilhetes{
+    color: #F3C61F;
+    font-family: Verdana;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+    margin: 0px 100px 10px 40px; 
+ }
+ .card{
+    display: flex;
+    justify-content: space-between;
+    width: 224px;
+    height: 224px;
+    flex-shrink: 0;
+    padding: 30px;
+    cursor: pointer;
+ }
+ 
+#botao{
+    width: 596px;
+    height: 148px;
+    background-color: #514988;
+    border-radius: 20px;
+    display: flex;
+    margin: 80px 108px 50px 800px;
+    padding: 34px 89px 34px 90px;
+
+    flex-direction: column;
+    justify-content: center;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+    border: none;  
+
+ }
+ #botao:hover{
+    background-color: #7872a3 ;
+    transform: translateY(-5px);
+    box-shadow: 0px 15px 20px  #5e564d8e;
+    transition-duration: 0.5s;
+}
+.card-highlight
+{
+  box-shadow: 5px 10px gray; 
+}
